@@ -1,5 +1,43 @@
 // Глобальные переменные.
 
 :root {
+  // Цвета.
+  --color-light: #FFFFFF;
+  --color-dark: #191A23;
+  --color-dark-alt: #292A32;
+  --color-gray: #F3F3F3;
+  --color-gray-alt: #898989;
+  --color-accent: #B9FF66;
 
+  // Рамка и закругление.
+  --border: 1px solid $color-dark;
+  --border-radius: 14px;
+  // Закругление рамки у фоновых элементов.
+  --border-radius-small: 7px;
+  // Закругление у карточек.
+  --border-radius-large: 45px;
+
+  // Тень у карточек.
+  --shadow: 0 5px 0 0 $color-dark;
+
+  // Семейство шрифтов.
+  --font-family-base: 'Space Grotesk', sans-serif;
+
+  // Параметры сетки.
+  --container-width: 1240px;
+  // Внутренние горизонтальные отсутпы как в мобильной версии.
+  --container-padding-x: 20px;
+
+  // Внутренний отступ по вертикали сверху и снизу у секций.
+  // (по макету расстояние между секциями 140px, поделим на 2, т.к. внутренние отступы не схопываются, мы получим 140px)
+  --section-padding-y: 70px;
+
+  // Поля ввода.
+  $input-height: 59px;
+
+  // Кнопки.
+  --button-height: 68px;
+
+  // Длительность анимаций.
+  --transition-duration: 0.2s;
 }
